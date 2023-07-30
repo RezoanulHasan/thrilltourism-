@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>thrilltourism </title>
+  <link rel="icon" type="image" href="https://i.ibb.co/7Q4FVTr/pngtree-vector-web-icon-png-image-848026.jpg" />
+
+
+
+<style>
+  /* Add your custom styles here for the header */
+  .navba {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   bottom: 100%;
+    z-index: 100; 
+  }
+  /* Add your custom styles here for card */
+  .group:hover {
+
+border-color: #f00; 
+}
+.group:hover img {
+
+  transform: scale(1.3);
+  border: 2px solid rgb(255, 115, 0);
+}
+
+</style>
+ <!--For daisyui  -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+ <!--For font-awesome  -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+   <!--navbar-->
+<section id="navbar  mb-20">
+  <div class="navba mb-20 lg:mx-10  md:mx-10 mx-0  bg-base-100">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+         
+          <label tabindex="0" >
+            <div class="w-full lg:mx-10  md:mx-10   mx-0 ">
+                    <img  class="  hidden lg:lg:block  md:lg:block"  src="https://i.ibb.co/5Bd1jJH/Capture.png" alt="" />
+                  </div>
+                </label>
+          <i class="font-bold text-red-500  btn btn-outline lg:lg:hidden md:lg:hidden  text-xl">thrilltourism</i> 
+      
+        </div>
+      </div>
+    
+      <div class="navbar-center hidden lg:flex">
+        <!-- Add other menu items or components here -->
+      </div>
+    
+      <div class="navbar-end lg:gap-5  gap-2"  >
+        <div class="btn hover:text-black bg-black text-red-500">Near Me</div>
+        <div class="btn hover:text-black bg-black text-red-500">Add a List</div>
+      </div>
+    </div>
+    
+
+    <div class="dropdown">
+      <label tabindex="0" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </label>
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+        <li>
+          <a href="#">
+            <i class="fas fa-home mr-2 font-bold"></i> Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-list mr-2"></i> All Listing
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-hand-holding-heart mr-2"></i> Why Choose Us
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-cogs mr-2"></i> All Services
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-blog mr-2"></i> Blog
+          </a>
+        </li>
+
+
+
+      </ul>
+    </div>
+    
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-4 font-bold">
+   
+        <li>
+          <a href="#">
+            <i class="fas fa-home mr-2"></i> Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-list mr-2"></i> All Listing
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-hand-holding-heart mr-2"></i> Why Choose Us
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-cogs mr-2"></i> All Services
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-blog mr-2"></i> Blog
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>
+
+ <!--navbar close--> 
+
+<h1  class=" m-10  text-white"> 0</h1>
+<h1  class=" m-10 text-white"> 0</h1>
+
+<!--banner-->
+<section id="banner">
+<div class=" m-10 flex lg:flex-row md:flex-row flex-col  gap-2  lg:mt-10 md:mt-10 mt-5  ">
+
+<div class="lg:w-1/2 md:1/2  w-full">
+<h1 class="text-4xl font-bold text-pink-500"> Welcome To ThrillTourism </h1>
+<h1 class="text-xl font-bold mb-5 ">Explore the World with ThrillTourism.....</h1>
+<p class="mb-10"  >Welcome to ThrillTourism, where wanderlust meets excitement. Unleash your adventurous spirit and embark on a journey filled with thrilling experiences, breathtaking landscapes, and cultural wonders. Get ready to create lifelong memories and discover the world's hidden gems. Let the thrill begin with us!</p>
+
+<button class="btn hover:text-black bg-black text-red-500">Booking Now</button>
+
+</div>
+<div class="lg:w-1/2 md:1/2 w-full lg:mt-0 md:mt-0 mt-10 ">
+<img  class="w-100%" src="https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?b=1&s=612x612&w=0&k=20&c=LIHDLfQsTnhmdQXAXjwo-NN3DW2RaXHaRSCTvjtNDSY=" alt="">
+
+</div>
+
+</div>
+</section>
+<!--banner close-->
+
+
+ <!--google map--> 
+<section id="goole-map"   class="m-10 mt-20">
+  <!--Shimla, Himachal+Pradesh with the desired location -->
+  <iframe src="https://www.google.com/maps?q=Shimla, Himachal+Pradesh&output=embed" width="100%" height="450" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+
+  <div class="card-actions justify-center  text-black mt-3 ">
+    <div class="btn hover:text-black bg-black text-red-500 "> near me </div>
+  </div>
+</section>
+ <!--google map close--> 
+
+
+
+ <!-- --> 
+
+
+ <section class="mt-5 m-10 overfolw-hidden"> 
+  <div class="grid grid-cols-1 lg:grid-cols-4  md:grid-cols-2   gap-5 ">
+    
+      
+<!-- 1--> 
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+    <figure class="px-10 pt-10">
+      <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1511182256_20191223154215.jpg" alt="man" class="rounded-xl" />
+    </figure>
+    <div class="card-body">
+      <h2 class="card-title">Blog</h2>
+      <p>Kasauli Trip FAQs</p>
+      <div class="card-actions justify-end">
+        <button class="text-red-500 flex items-center">
+          <i class="fas fa-map-marker-alt mr-2"></i> 
+          Solan
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+ <!-- 2-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b2/79/37/solang-valley-manali.jpg?w=1200&h=-1&s=1" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Sagar Thakur Dhaba</p>
+    <div class="card-actions justify-end">
+      <button class="text-red-500 flex items-center">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        manali
+      </button>
+    </div>
+  </div>
+</div>
+
+      
+
+ <!-- 3-->  
+ <div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://www.mistay.in/travel-blog/content/images/size/w2000/2018/03/chandigarh.jpg" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Siswan Dam</p>
+    <div class="card-actions justify-end">
+      <button class="text-red-500 flex items-center">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        chandigarh
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!-- 4-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://www.nativeplanet.com/img/2022/09/istockphoto-1224393228-612x612-1664177784.jpg" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Hidden Waterfall Trek</p>
+    <div class="card-actions justify-end">
+      <button class="text-red-500 flex items-center">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        shimla
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- 5-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://curlytales.com/wp-content/uploads/2023/04/7-pines-kasauli.jpg" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Riva Waterfalls</p>
+    <div class="card-actions justify-end">
+      <button class="text-red-500 flex items-center">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        Kasauli
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!--6-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://dynamic.tourtravelworld.com/package-images/photo-big/dir_18/526298/252650.jpg" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Morni Hills</p>
+    <div class="card-actions justify-end">
+      <button class=" flex items-center text-red-500">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        Panchkula
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--7-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://i.ytimg.com/vi/ydj05O93r7Y/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgYigqMA8=&rs=AOn4CLCtPuAq0nTlBGEYPIVg0Csug1okCQ" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Jothi Waterfalls</p>
+    <div class="card-actions justify-end">
+      <button class=" flex items-center text-red-500">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        Rohru
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--8-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://www.connectingtraveller.com/images/localtip/163009283020210725_122847.jpg" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Bangoru Waterfalls</p>
+    <div class="card-actions justify-end">
+      <button class=" flex items-center text-red-500">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        Bir Billing
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!--9-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://www.holidify.com/images/cmsuploads/compressed/Bhagsu-Waterfalls-Himachal-Pradesh_20220121130748.jpeg" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Bhagsunag Water Fall</p>
+    <div class="card-actions justify-end">
+      <button class=" flex items-center text-red-500">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        Mclodegunj
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!--10-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://1.bp.blogspot.com/-yuEA0C7Plps/YEbHUCAPMWI/AAAAAAAAciw/ypiAWLuexw4BqSvB150R_ux_k6YGQKykACLcBGAsYHQ/s500/Dhingu%2BMata%2BTemple%2BAt%2BSanjauli%2BIn%2BShimla.jpg" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>View point</p>
+    <div class="card-actions justify-end">
+      <button class=" flex items-center text-red-500">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        Sanjuli
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!--11-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://www.thestatesman.com/wp-content/uploads/2019/06/himachal.jpg" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Bir Billing Trip FAQs</p>
+    <div class="card-actions justify-end">
+      <button class=" flex items-center text-red-500">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        Kangra
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--12-->  
+<div class="card  group w-full  border-solid border-2 border-indigo-600   bg-base-100 shadow-xl">
+  <figure class="px-10 pt-10">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/e1/48/08/manali-a-resort-town.jpg" alt="man" class="rounded-xl" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Blog</h2>
+    <p>Jibhi Trip FAQs</p>
+    <div class="card-actions justify-end">
+      <button class=" flex items-center text-red-500">
+        <i class="fas fa-map-marker-alt mr-2"></i> 
+        Kullu
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+ </section>
+
+ <!-- --> 
+
+
+
+
+   <!--Service charge plane -->
+<section   id="Service charge plane " class="m-10  mt-10  mb-20" >
+
+  <h1 style="text-shadow: 0 0 3px #0059ff, 0 0 4px #0051ff;" class="text-black font-bold text-3xl text-center mt-5 mb-4"> Service Charge Plane </h1>
+  <p class="text-black text-center mb-10"> Welcome to our travel hub, where adventure and discovery meet. Embark on a journey of a lifetime as we offer you a selection of carefully crafted travel packages to suit every traveler's taste and preferences. </P>
+
+
+
+<div class='mb-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-2'>
+  <div class=' shadow-4xl  border-solid border-2 border-red-500   hover:bg-white bg-red-200 p-10 text-center leading-8 rounded" '>
+      <div class='flex flex-col gap-4'>
+          <h1 class='text-3xl font-bold'>Island Paradise Getaway</h1>
+          <h3><span class='text-3xl text-indigo-700'>$1,199 /</span> Starting <span></span></h3>
+      </div>
+      <div class="divider text-2xl"></div>
+      <ul class="flex flex-col gap-4 mb-6">
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              7 Days / 6 Nights
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Explore pristine beaches, lush landscapes, and vibrant marine life.
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Water sports, snorkeling, and island hopping adventures.
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Luxurious beachfront resort accommodation.
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Starting from $1,199 per person.
+          </li>
+      </ul>
+      <a href='/register'><button class='mt-4 btn hover:text-black  bg-black text-red-500'>Register Now</button></a>
+  </div>
+  <div class='shadow-4xl border-solid border-2 border-yellow-500  hover:bg-white bg-orange-200  p-10 text-center leading-8'>
+      <div class='flex flex-col gap-4'>
+          <h1 class='text-3xl font-bold'>Mountain Expedition Retreat</h1>
+          <h3><span class='text-3xl text-indigo-700'>$899/</span><span>Starting</span></h3>
+      </div>
+      <div class="divider text-2xl"></div>
+      <ul class="flex flex-col gap-4 mb-6">
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              5 Days / 4 Nights
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Hike through breathtaking mountain trails and explore serene forests.
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Experience local culture and traditional mountain cuisines.
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Cozy lodge stays with stunning mountain views.
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Starting from $899 per person.
+          </li>
+          
+      </ul>
+      <a href='/register'><button class='mt-4 btn bg-black hover:text-black  text-red-500'>Register Now</button></a>
+  </div>
+  <div class='shadow-4xl    border-solid border-2 border-blue-500   hover:bg-white bg-blue-200  p-10 text-center leading-8'>
+      <div class='flex flex-col gap-4'>
+          <h1 class='text-3xl font-bold'>Historical- Heritage   Tour</h1>
+          <h3><span class='text-3xl text-indigo-700'>$1499/</span><span>Starting</span></h3>
+      </div>
+      <div class="divider text-2xl"></div>
+      <ul class="flex flex-col gap-4 mb-6">
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              8 Days / 7 Nights
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Discover ancient landmarks, palaces, and historical monuments.
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Guided city tours and visits to UNESCO World Heritage sites
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Comfortable accommodation in centrally located hotels.
+          </li>
+          <li>
+              <span class="inline-block mr-2 text-green-500">&#10003;</span>
+              Starting from $1,499 per person.
+          </li>
+      </ul>
+      <a href='/register'><button class='mt-4 btn bg-black hover:text-black text-red-500'>Register Now</button></a>
+  </div>
+</div>
+</section>
+
+   <!--Service charge close -->
+
+
+
+   <!--card start-->
+   <section id="card"   class="m-10" >
+    <div class="hero  bg-black "style="background-image: url();" >
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w">
+          <h1 class="mb-5 text-3xl font-bold">List your tourism services for free</h1>
+          <p class="mb-5">Thrill tourism is an online platform that enables tourists to directly connect with hosts, without any commission fees.</p>
+          <button class="mt-4 btn bg-black text-red-500 hover:text-black"> publish your ad for free</button>
+        </div>
+      </div>
+    </div>
+    </section>
+     <!--card close-->
+  
+
+
+
+   <!--About us -->
+  
+
+<section id="About us" class="m-10 overfolw-hidden mb-20">
+  <h1 style="text-shadow: 0 0 3px #0059ff, 0 0 4px #0051ff;" class="text-black font-bold text-3xl text-center mt-5 mb-3"> About  Us </h1>
+
+  <div class="grid grid-cols-1 lg:grid-cols-4  md:grid-cols-2  mt-10 gap-5 ">
+  
+ <div class="card lg:w-72 w-full  hover:bg-green-500 bg-black     hover:text-black   text-neutral-content">
+  <div class="card-body     items-center text-center">
+
+    <h2 class="card-title"> Our History </h2>
+
+    <figure><img class='object-cover w-20  rounded shadow-lg h-20 '    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_c_PBbswrfHBSwmZjgcVTZX8zJx4356uBZg&usqp=CAU" alt="man" /></figure>  
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet eum iure ducimus molestias ipsa quia, !</p>
+    
+  </div>
+</div>
+
+
+<div class="card lg:w-72 w-full   bg-black  hover:bg-yellow-500      hover:text-black   text-neutral-content">
+  <div class="card-body     items-center text-center">
+
+    <h2 class="card-title"> Our mission </h2>
+
+    <figure><img class='object-cover w-20  rounded shadow-lg h-20 '    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQU4WfWoEpN8fLWilIFpy9A96W84lfaQXpgypzsZFtkLTKBGZo0mF7PBb5qmNUFejoYBc&usqp=CAU" alt="man" /></figure>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet eum iure ducimus molestias ipsa quia, !</p>
+    
+  </div>
+</div>
+
+<div class="card lg:w-72 w-full  bg-black  hover:bg-orange-500      hover:text-black   text-neutral-content">
+  <div class="card-body     items-center text-center">
+
+    <h2 class="card-title"> Our Goal </h2>
+
+    <figure><img class='object-cover w-20  rounded shadow-lg h-20 '    src="https://images.vexels.com/media/users/3/147999/isolated/preview/417c14a674920407a978bcaea0ce7cec-goal-square-icon.png" alt="man" /></figure>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet eum iure ducimus molestias ipsa quia, !</p>
+    
+  </div>
+</div>
+
+<div class="card lg:w-72 w-full  bg-black  hover:bg-red-500      hover:text-black   text-neutral-content">
+  <div class="card-body     items-center text-center">
+
+    <h2 class="card-title"> Our  vision</h2>
+   
+    <figure><img class='object-cover w-20  rounded shadow-lg h-20 '    src="https://life.futuregenerali.in/Content/images/about/vision.jpg" alt="man" /></figure>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet eum iure ducimus molestias ipsa quia, !</p>
+    
+  </div>
+</div>
+
+
+</div>
+</section>
+  <!--About us close  -->
+
+
+
+ <!--   -->
+<section id="why chose us" class="m-10 mt-5 mb-5">
+  <div class="flex flex-col w-full ">
+    <div class="grid flex-grow h-32 card bg-black text-white rounded-box place-items-center">Why Choose Us:</div> 
+<div class="text-xl bg-opacity-60 mt-5 skew-y-3 ">
+    <h1 class="bg-green-300  text-black mb-1 p-2"> <Span class="font-bold">Expert Travel Guides:</Span> Our team of experienced travel guides will ensure you make the most of your journey. From insider tips to hidden gems, we've got you covered. </h1>
+    <h1 class="bg-yellow-300  text-black mb-1  p-2"><Span class="font-bold">Tailor-Made Itineraries:</Span> Whether you seek an action-packed adventure or a relaxing getaway, we offer customizable itineraries to match your preferences. </h1>
+    <h1 class="bg-red-300  text-black mb-1 p-2 " > <Span class="font-bold">Best Accommodations:</Span> Stay in top-rated hotels, resorts, and boutique lodges that provide comfort and convenience while embracing the local ambiance. </h1>
+    <h1  class="bg-orange-300  text-black mb-1 p-2 " ><Span class="font-bold">Seamless Booking:</Span> Our user-friendly platform allows you to book flights, accommodations, and activities effortlessly, making travel planning a breeze.  </h1>
+  </div>
+
+  <div class="divider lg:divider-horizontal">.</div> 
+    <div class="grid flex-grow h-32 card   rounded-box bg-black text-white place-items-center">Travel Tips:
+      
+    </div>
+    <div class="text-xl bg-opacity-60 mt-5 skew-y-3 ">
+
+    <h1 class="bg-blue-300  text-black mb-1 p-2 "  ><Span class="font-bold">Pack Wisely:</Span> Dress comfortably and carry essentials such as sunscreen, a hat, and a reusable water bottle.</h1>
+    <h1 class="bg-gray-300  text-black mb-1 p-2 "  ><Span class="font-bold"> Respect Local Customs:</Span> Embrace the local culture and traditions, and learn a few phrases in the local language—it goes a long way.</h1>
+    <h1 class="bg-pink-300  text-black mb-1 p-2 "><Span class="font-bold">Safety First:</Span> Your safety is our priority. Follow guidelines and precautions while exploring new places.</h1>
+  </div>
+
+  </div>
+</section>
+ <!--About us close  -->
+
+
+  <!--our team  -->
+
+<section id="our-team" class="m-10">
+  <h1 style="text-shadow: 0 0 3px #0059ff, 0 0 4px #0051ff;" class="text-black font-bold text-3xl text-center mt-5 mb-4">Our Team </h1>
+  <p class="text-black text-center text-xl mb-10">"A Passionate Ensemble of Adventurers - Our Team is Committed to Curating Your Dream Travel Experiences."  </P>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3   gap-5 ">
+
+
+
+  <!-- 1  -->
+        <div class="card w-100 bg-black shadow-xl">
+          <figure><img class='object-cover w-full  rounded shadow-lg h-60 '    src="https://plus.unsplash.com/premium_photo-1675129779582-d84b954f2397?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="man" /></figure>  
+          <div class="card-body text-white ">
+            <h2 class="card-title ">
+             Akram Alam </h2>
+              <h2 class="badge  badge-secondary">Senior Officer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit voluptates laudantium rem, cum unde doloremque vero dolore</p>
+            <div class="card-actions justify-end">
+              <div class="btn btn-outline btn-info">View details</div> 
+   
+            </div>
+          </div>
+        </div>
+
+  <!--2-->
+  <div class="card w-100 bg-black shadow-xl">
+    <figure><img class='object-cover w-full  rounded shadow-lg h-60 '    src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="man" /></figure>  
+    <div class="card-body text-white ">
+      <h2 class="card-title ">
+       Alam parmanik </h2>
+        <h2 class="badge  badge-secondary">Executive Manager</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit voluptates laudantium rem, cum unde doloremque vero dolore</p>
+      <div class="card-actions justify-end">
+        <div class="btn btn-outline btn-info">View details</div> 
+
+      </div>
+    </div>
+  </div> 
+
+
+  <!--3-->
+  <div class="card w-100 bg-black shadow-xl">
+    <figure><img class='object-cover w-full  rounded shadow-lg h-60 '    src="https://images.unsplash.com/photo-1519165598262-124d83b93b16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdpcmwlMjBmb3JtYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="man" /></figure>  
+    <div class="card-body text-white ">
+      <h2 class="card-title ">
+     Kasfiya jahsan </h2>
+        <h2 class="badge  badge-secondary">HR Officer</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit voluptates laudantium rem, cum unde doloremque vero dolore</p>
+      <div class="card-actions justify-end">
+        <div class="btn btn-outline btn-info">View details</div> 
+
+      </div>
+    </div>
+  </div>
+
+ <!--4-->
+ <div class="card w-100 bg-black shadow-xl">
+  <figure><img class='object-cover w-full  rounded shadow-lg h-60 '    src="https://images.unsplash.com/photo-1585267676185-f4aa56ddbce4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdpcmwlMjBmb3JtYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="man" /></figure>  
+  <div class="card-body text-white ">
+    <h2 class="card-title "> Muskan Jahan
+     </h2>
+      <h2 class="badge  badge-secondary">Visa Officer</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit voluptates laudantium rem, cum unde doloremque vero dolore</p>
+    <div class="card-actions justify-end">
+      <div class="btn btn-outline btn-info">View details</div> 
+
+    </div>
+  </div>
+</div>
+
+
+
+ <!--5-->
+ <div class="card w-100 bg-black shadow-xl">
+  <figure><img class='object-cover w-full  rounded shadow-lg h-60 '    src="https://images.unsplash.com/photo-1583864697784-a0efc8379f70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="man" /></figure>  
+  <div class="card-body text-white ">
+    <h2 class="card-title "> Shemul Das
+     </h2>
+      <h2 class="badge  badge-secondary">Executive Officer </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit voluptates laudantium rem, cum unde doloremque vero dolore</p>
+    <div class="card-actions justify-end">
+      <div class="btn btn-outline btn-info">View details</div> 
+
+    </div>
+  </div>
+</div>
+  
+   
+
+ <!--6-->
+ <div class="card w-100 bg-black shadow-xl">
+  <figure><img class='object-cover w-full  rounded shadow-lg h-60 '    src="https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="man" /></figure>  
+  <div class="card-body text-white ">
+    <h2 class="card-title "> Asfak Hasan
+     </h2>
+      <h2 class="badge  badge-secondary"> IT Officer</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel suscipit voluptates laudantium rem, cum unde doloremque vero dolore</p>
+    <div class="card-actions justify-end">
+      <div class="btn btn-outline btn-info">View details</div> 
+
+    </div>
+  </div>
+</div>
+
+
+      </div>
+  
+</section>
+
+  <!--our team  close  -->
+
+
+
+  <!-- Our-Sponsors- -->
+<section id="Our-Sponsors" class="m-10 mb-20">
+  <h1 style="text-shadow: 0 0 3px #0059ff, 0 0 4px #0051ff;" class="text-black font-bold text-3xl text-center mt-5 mb-4">Our-Sponsors</h1>
+  <p class="text-black text-center text-xl  mb-10">"Empowering Exploration with a Purpose - We Champion Sustainable Tourism for a Greener, Better World."  </P>
+
+    <marquee behavior="scroll" scrollamount="10" direction="left"  >
+      <div class="grid grid-cols-5  lg:gap-0 md:gap-0 gap-7 ">
+<div><img  class="h-12" src="https://i.ibb.co/0sKHS3B/amazon.png" alt=""></div>
+<div><img  class="h-12"  src="https://i.ibb.co/z6P1yZD/figma.png" alt=""></div>
+<div><img  class="h-12"  src="https://i.ibb.co/RTZ8NdP/google.png" alt=""></div>
+  <div><img   class="h-12" src="https://i.ibb.co/rZhLYgL/spotify.png" alt=""></div>
+    <div><img   class="h-12" src="https://i.ibb.co/bgDWtxN/telerama.png" alt=""></div>
+</div>
+</marquee>
+</section>
+
+  <!--Our-Sponspors close -->
+
+ <!--from start-->
+<section id="from"   class="m-10  ">
+<div class="max-w-md mx-auto bg-black  p-8 rounded-md shadow-md mt-10">
+  <h2 class="text-2xl font-bold  text-white  text-center mb-6">Contact Us</h2>
+  <form id="contact-form">
+    <div class="mb-4">
+      <label for="name" class="block  text-white font-semibold">Name</label>
+      <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500" required>
+    </div>
+    <div class="mb-4">
+      <label for="email" class="block  text-white  font-semibold">Email</label>
+      <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500" required>
+    </div>
+    <div class="mb-4">
+      <label for="phone" class="block text-white  font-semibold">Phone</label>
+      <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500" required>
+    </div>
+    <div class="mb-4">
+      <label for="message" class="block text-white   font-semibold">Message</label>
+      <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500" required></textarea>
+    </div>
+    <div class="card-actions justify-end">
+    <button type="submit" class="btn btn-outline btn-info">Submit</button>
+  </div>
+  </form>
+</div>
+</section>
+ <!--from end-->
+
+
+
+
+ <!--footer-->
+ <footer class="footer px-10 py-4  border-t bg-black  text-base-content border-base-300">
+  <div class="items-center grid-flow-col">
+    <label tabindex="0" >
+<div class="w-full lg:mx-10  md:mx-10   mx-0 ">
+        <img  class="  hidden lg:lg:block  md:lg:block"  src="https://i.ibb.co/5Bd1jJH/Capture.png" alt="" />
+      </div>
+    </label>
+    <div class="flex justify-between gap-20">
+      <p class="font-bold text-white  lg:lg:hidden md:lg:hidden  text-xl">thrilltourism</p>
+      <p class="font-bold text-white">2023 © thrilltourism.com | Privacy Policy | Terms and Conditions | Pricing</p>
+    </div>
+  </div>
+
+  <div class="md:place-self-center md:justify-self-end">
+    <div class="grid grid-flow-col gap-4">
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current text-white">
+          <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+        </svg>
+      </a>
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current text-white">
+          <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+        </svg>
+      </a>
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current text-white  ">
+          <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+ <!--footer close-->
+
+
+
+
+  <!--For from js  -->
+ <script src="script.js" ></script>
+  <!--For tailwindcss   js-->
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
+
+
